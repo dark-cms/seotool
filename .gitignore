@@ -1,3 +1,5 @@
 /composer.lock
 /vendor/
 /nbproject/
+/app/settings.php
+/cron/seotracker.pl

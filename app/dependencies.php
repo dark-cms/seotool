@@ -15,7 +15,11 @@ $container['renderer'] = function($container) {
     return new \Slim\Views\PhpRenderer($templatePath);
 };
 
-// caching
-$container['\App\SlimPageCaching'] = function ($container) {
-    return new \App\SlimPageCaching($container->get('settings'));
+// if 404 redirect
+$container['notFoundHandler'] = function ($container) {
+    return function ($request, $response) use ($container) {
+        return $container['response']
+            ->withStatus(301)
+            ->withHeader('Location', '/dashboard/index/');
+    };
 };

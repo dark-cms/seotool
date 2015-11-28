@@ -1,1 +1,69 @@
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: nowrap;
+}
 
+.messageHolder {
+    display:none;
+}
+
+i.projectRemove,i.keywordRemove,i.backlinkRemove {
+    color:#d9534f;
+    &:hover {
+        color:#c9302c;
+        cursor: pointer;
+    }
+}
+
+.green {
+    color:#5cb85c;
+    &:hover {
+        color:#449d44;
+        cursor: pointer;
+    }
+}
+
+.red {
+    color:#d9534f;
+    &:hover {
+        color:#c9302c;
+        cursor: pointer;
+    }
+}
+
+.pos {
+    color:#5cb85c;
+}
+.neg {
+    color:#d9534f;
+}
+.bestPos {
+    background-color:#5cb85c;
+    color:#fff;
+    font-weight:700;
+    .urlInTbl {
+        color:#fff;
+    }
+}
+.keywordname {
+    strong {
+        font-weight: 700;
+        color:#337ab7;
+    }
+}
+.tblBtn {
+    text-align: center;
+}
+
+.urlInTbl {
+    color:#333;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 400px;
+    overflow-x: hidden;
+}
+
+.fa-spinner {
+    display:none;
+}
