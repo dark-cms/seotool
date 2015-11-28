@@ -13,5 +13,10 @@
 11. hoffen, dass ich hier nicht vergessen habe
 12. Einloggen, Projekte anlegen, Keywords anlegen und bis nächsten Tag warten.
 
+<strong>WICHTIG:</strong>
+PHP sollte in Version 5.6 verwendet werden, MYSQL in Version 5.5, PERL in Version 5.20.
+<br />
+Unter PHP 5.3 wird das Tool definitiv nicht funktionieren, bei 5.4 und 5.5 könnte es klappen!
+
 # screenshot
 <img src="http://i.imgur.com/zIh8Ezf.png">
