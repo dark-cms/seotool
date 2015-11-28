@@ -12,3 +12,6 @@
 10. wie hier beschrieben, eure htaccess o.ä. anpassen (http://www.slimframework.com/docs/start/web-servers.html) 
 11. hoffen, dass ich hier nicht vergessen habe
 12. Einloggen, Projekte anlegen, Keywords anlegen und bis nächsten Tag warten.
+
+# screenshot
+<img src="http://i.imgur.com/zIh8Ezf.png">
