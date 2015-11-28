@@ -49,7 +49,7 @@ my %projects;
 
 while($query_handle->fetch())
 {
-
+        
         $projects{$pp}{$pid} = $purl;
 
 }
@@ -154,9 +154,9 @@ sub getGoogleResponse
 ## Description: Extracts position and ranked URL from current google response array for current project
 ## Input:       (array)  googleResponse
 ##              (string) projectURL
-                (string) keywordName
+##              (string) keywordName
 ## Output:      (string) rankedURLdetected
-                (int)    rankingPositionDetected
+##              (int)    rankingPositionDetected
 
 sub extractFromGoogleResponse
 {
@@ -207,9 +207,9 @@ sub extractFromGoogleResponse
 ## Description: Saves position data in given mysql database
 ## Input:       (int)     keywordID
 ##              (int)     projectID
-                (int)     parentID
-                (int)     rankingPos
-                (string)  rankingURL
+##              (int)     parentID
+##              (int)     rankingPos
+##              (string)  rankingURL
 
 sub saveRankingForURL
 {
