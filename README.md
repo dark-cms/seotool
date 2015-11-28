@@ -9,5 +9,6 @@
 7. dump.sql in die gewählte mysql db importieren
 8. per SSH über composer alle Abhängigkeiten installieren (Slim, ...)
 9. Autoload dumpen mit Composer Befehl: "composer dumpautoload -o" 
-10. hoffen, dass ich hier nicht vergessen habe
-11. Einloggen, Projekte anlegen, Keywords anlegen und bis nächsten Tag warten.
+10. wie hier beschrieben, eure htaccess o.ä. anpassen (http://www.slimframework.com/docs/start/web-servers.html) 
+11. hoffen, dass ich hier nicht vergessen habe
+12. Einloggen, Projekte anlegen, Keywords anlegen und bis nächsten Tag warten.
